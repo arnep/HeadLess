@@ -198,6 +198,7 @@
 				INFOPLIST_FILE = "HeadLess-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = HeadLess;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -212,6 +213,7 @@
 				INFOPLIST_FILE = "HeadLess-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = HeadLess;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
