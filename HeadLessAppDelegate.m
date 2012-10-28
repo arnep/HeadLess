@@ -24,11 +24,12 @@
 	[window setDelegate:view];
 	[window makeKeyAndOrderFront:nil];
 	
-	
-	CGRect textLabelFrame = CGRectMake(40,200, 80, 30);
-	NSTextView *textLabel = [[NSTextView alloc] initWithFrame:textLabelFrame];
-	[textLabel setString:@"TestApp without NIB"];
-	[view addSubview:textLabel];
+    NSRect tframe = NSMakeRect(40, 200, 80, 30);
+    NSTextView *textLabel = [[NSTextView alloc] initWithFrame:tframe];
+    [textLabel setString:@"Testapp without NIV"];
+    
+    
+    [view addSubview:textLabel];
 	[textLabel release];
 	
 	
